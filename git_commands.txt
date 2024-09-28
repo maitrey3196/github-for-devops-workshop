@@ -1,0 +1,30 @@
+  119  git init
+  120  ls -a
+  121  cd git
+  122  clear
+  123  git init
+  124  ls -a
+  125  git status
+  126  python testing.py
+  127  python3 testing.py
+  128  git status
+  129  git add testing.py 
+  130  git status
+  131  git rm --cached testing.py 
+  132  git status
+  133  git add .
+  134  git status
+  135  git commit -m "adding testing.py files"
+  136  git status
+  137  git commit -m "adding testing.py files"
+  138  ls
+  139  ls -a
+  140  git config user.name "Maitrey Mishra"
+  141  git config user.email "maitrey@example.com"
+  142  git commit -m "adding testing.py files"
+  143  git status
+  144  ls -a
+  145  rm testing.py
+  146  ls -a
+  147  git restore testing.py
+  148  ls -a
